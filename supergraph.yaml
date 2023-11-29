@@ -1,0 +1,16 @@
+subgraphs:
+  frame:
+    routing_url: http://localhost:4999
+    schema:
+      subgraph_url: http://localhost:4999
+
+  frame_a:
+    routing_url: http://localhost:4001
+    schema:
+      subgraph_url: http://localhost:4001
+
+  frame_b:
+    schema:
+      subgraph_url: http://localhost:4002
+      schema:
+        subgraph_url: http://localhost:4002
